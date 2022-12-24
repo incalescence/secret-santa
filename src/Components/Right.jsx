@@ -1,14 +1,14 @@
 import React from 'react';
 import Slogan from './Slogan';
 import Blurb from './Blurb';
-import SignUp from './SignUp';
+import StartButton from './StartButton';
 
 const Right = () => {
   return (
     <div>
       <Slogan />
       <Blurb />
-      <SignUp />
+      <StartButton />
     </div>
   );
 };
